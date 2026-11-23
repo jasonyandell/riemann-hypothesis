@@ -1,6 +1,6 @@
 module
 
-import Mathlib
+import Mathlib.LinearAlgebra.AnnihilatingPolynomial
 public import GroundTheory.ProfiniteCohomology.GaloisCohomology.BrauerInflationDefs
 public import GroundTheory.ProfiniteCohomology.LocalClassFormation.InvariantDefs
 import GroundTheory.LocalFields.MaximalUnramified

@@ -1,6 +1,6 @@
 module
 
-import Mathlib
+import Mathlib.Algebra.AddConstMap.Basic
 public import Development.AbelianVarietyTheory.Proofs.HeightProofs.DenomBound
 public import Formalism.LocalToGlobal.IndefiniteReal.FinitePlaces.FactPrincipalDatum
 public import Formalism.LocalToGlobal.ProjectiveLattices.HostInt
