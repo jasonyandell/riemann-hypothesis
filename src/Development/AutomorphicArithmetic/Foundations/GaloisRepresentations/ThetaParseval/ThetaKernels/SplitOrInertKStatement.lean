@@ -140,7 +140,6 @@ end PositivityTheory.SiegelWeilFormula.Act.C5
 end
 
 section
-set_option linter.unusedSectionVars false
 open PositivityTheory.SiegelWeilFormula.Act.C5 PositivityTheory.SiegelWeilFormula.Act.C4
   PositivityTheory.SiegelWeilFormula.Act.C4.Bq
 namespace PositivityTheory.SiegelWeilFormula.Act.C6
@@ -336,7 +335,6 @@ end PositivityTheory.SiegelWeilFormula.Act.C6
 end
 
 section
-set_option linter.unusedSectionVars false
 set_option linter.unusedSimpArgs false
 open PositivityTheory.SiegelWeilFormula.Act.C4 PositivityTheory.SiegelWeilFormula.Act.C5
 namespace PositivityTheory.SiegelWeilFormula.Act.C6
@@ -631,7 +629,6 @@ end PositivityTheory.SiegelWeilFormula.Act.C6
 end
 
 section
-set_option linter.unusedSectionVars false
 set_option linter.unusedSimpArgs false
 open PositivityTheory.SiegelWeilFormula.Act.C4 PositivityTheory.SiegelWeilFormula.Act.C4.Bq
   PositivityTheory.SiegelWeilFormula.Act.C5

@@ -22,7 +22,6 @@ abbrev _root_.GlobalTheory.T.schrodinger_model_intertwining :=
 end
 
 section
-set_option linter.unusedSectionVars false
 noncomputable section
 open NumberField IsDedekindDomain MeasureTheory Filter Topology
   Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes
@@ -246,7 +245,6 @@ end
 end
 
 section
-set_option linter.unusedSectionVars false
 noncomputable section
 open NumberField IsDedekindDomain MeasureTheory Filter Topology
   Formalism.MainNotions.GlobalTheoryTheory.GenusMassVolumes

@@ -132,7 +132,6 @@ end
 section
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] {σ : E →ₐ[F] E}
 section
-set_option linter.unusedSectionVars false
 namespace PositivityTheory.SiegelWeilFormula.tweyl
 variable (d : SD_k σ)
 theorem actB_conj_k (x : d.G) (g : UA σ d.A.J) (v : d.M2) :
@@ -209,7 +208,6 @@ end
 section
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] {σ : E →ₐ[F] E}
 section
-set_option linter.unusedSectionVars false
 namespace PositivityTheory.SiegelWeilFormula.tweyl
 variable (d : SD_k σ)
 theorem comm_k (hT : TBij_k) (g : UA σ d.A.J) : ∀ Φ ∈ d.sch, ∀ x, d.om x (d.S g Φ) = d.S g (d.om x Φ) := by

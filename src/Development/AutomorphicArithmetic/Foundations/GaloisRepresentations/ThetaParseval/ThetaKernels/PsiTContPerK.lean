@@ -29,7 +29,6 @@ open Matrix (fromBlocks transpose_apply submatrix_apply)
 open GlobalTheory.EisBL.DoubledParabolic (inFrame_mul inFrame_inv inFrame_one)
 variable {F E : Type} [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] {σ : E →ₐ[F] E}
 section
-set_option linter.unusedSectionVars false
 set_option linter.unusedSimpArgs false
 open PositivityTheory.SiegelWeilFormula.Act.C4 PositivityTheory.SiegelWeilFormula.Act.C4.Bq
   PositivityTheory.SiegelWeilFormula.Act.C5
