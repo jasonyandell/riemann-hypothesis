@@ -105,8 +105,6 @@ namespace PositivityTheory.AdelicQuotientData
 
 namespace CuspDecayShortRow
 
-set_option linter.unusedSectionVars false
-
 variable {E : Type} [Field E] [NumberField E] [_root_.NumberField.IsTotallyComplex E] {a : ℕ}
 
 theorem low (hH : H0) {C1 C2 : Set (GA E a)} (h1 : IsCompact C1) (h2 : IsCompact C2) :
@@ -193,8 +191,6 @@ end PositivityTheory.AdelicQuotientData
 namespace PositivityTheory.AdelicQuotientData
 
 namespace CuspDecayShortRow
-
-set_option linter.unusedSectionVars false
 
 open GroundTheory.Global in
 theorem siegel {E : Type} [Field E] [NumberField E] [_root_.NumberField.IsTotallyComplex E] (a : ℕ) (ha : 0 < a)
@@ -285,8 +281,6 @@ end PositivityTheory.AdelicQuotientData
 namespace PositivityTheory.AdelicQuotientData
 
 namespace CuspDecayShortRow
-
-set_option linter.unusedSectionVars false
 
 variable {E : Type} [Field E] [NumberField E] [_root_.NumberField.IsTotallyComplex E] {a : ℕ}
 
