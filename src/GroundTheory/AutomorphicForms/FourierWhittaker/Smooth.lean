@@ -21,8 +21,6 @@ noncomputable section
 
 namespace FourierWhittaker
 
-set_option linter.unusedSectionVars false
-
 open AutomorphicForm
 
 variable {K : Type*} [Field K] [NumberField K] {n : ℕ}

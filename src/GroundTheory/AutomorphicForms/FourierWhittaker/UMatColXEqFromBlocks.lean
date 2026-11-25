@@ -14,8 +14,6 @@ noncomputable section
 
 namespace FourierWhittaker
 
-set_option linter.unusedSectionVars false
-
 abbrev Pos (n : ℕ) : Type := {p : Fin n × Fin n // p.1 < p.2}
 
 variable {n : ℕ} {R : Type*} [CommRing R]
