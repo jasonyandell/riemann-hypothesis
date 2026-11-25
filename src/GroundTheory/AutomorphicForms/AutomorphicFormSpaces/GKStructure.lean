@@ -19,8 +19,6 @@ noncomputable section
 
 namespace AutomorphicForm
 
-set_option linter.unusedSectionVars false
-
 theorem mem_of_hasDerivAt {X : Type*} (W : Submodule ℂ (X → ℂ)) [FiniteDimensional ℂ W]
     {c : ℝ → X → ℂ} (hc : ∀ t, c t ∈ W) {d : X → ℂ}
     (hd : ∀ x, HasDerivAt (fun t => c t x) (d x) 0) : d ∈ W := by

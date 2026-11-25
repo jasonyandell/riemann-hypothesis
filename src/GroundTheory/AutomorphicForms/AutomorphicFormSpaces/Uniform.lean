@@ -14,8 +14,6 @@ noncomputable section
 
 namespace AutomorphicForm
 
-set_option linter.unusedSectionVars false
-
 theorem exists_finset_eval_eq_zero {X : Type*} (W : Submodule ℂ (X → ℂ)) [FiniteDimensional ℂ W] :
     ∃ S : Finset X, ∀ w ∈ W, (∀ x ∈ S, w x = 0) → w = 0 := by
   classical

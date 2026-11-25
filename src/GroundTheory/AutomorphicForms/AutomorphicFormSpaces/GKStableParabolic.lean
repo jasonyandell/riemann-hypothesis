@@ -16,8 +16,6 @@ noncomputable section
 
 namespace AutomorphicForm
 
-set_option linter.unusedSectionVars false
-
 abbrev PPos (n : ℕ) (S : Finset ℕ) : Type :=
   {p : Fin n × Fin n // ∃ s ∈ S, (p.1 : ℕ) < s ∧ s ≤ (p.2 : ℕ)}
 

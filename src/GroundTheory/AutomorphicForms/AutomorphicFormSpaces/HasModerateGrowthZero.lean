@@ -17,8 +17,6 @@ namespace AutomorphicForm
 
 variable {K : Type*} [Field K] [NumberField K] {n : ℕ}
 
-set_option linter.unusedSectionVars false
-
 def IsLeftInvariant (φ : AdelicGLn.AdelicGL K n → ℂ) : Prop :=
   ∀ (γ : GL (Fin n) K) (g : AdelicGLn.AdelicGL K n), φ (AdelicGLn.diagonal K n γ * g) = φ g
 

@@ -22,8 +22,6 @@ noncomputable section
 
 namespace AutomorphicForm
 
-set_option linter.unusedSectionVars false
-
 abbrev UPos (n r : ℕ) : Type := {p : Fin n × Fin n // (p.1 : ℕ) < r ∧ r ≤ (p.2 : ℕ)}
 
 section Ring
