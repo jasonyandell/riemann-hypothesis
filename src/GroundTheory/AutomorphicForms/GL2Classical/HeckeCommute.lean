@@ -22,8 +22,6 @@ namespace GL2Classical
 
 open AdelicGLn AutomorphicForm
 
-set_option linter.unusedSectionVars false
-
 variable (p q : ℕ) [NeZero p] [NeZero q]
 
 instance : NeZero (p * q) := ⟨Nat.mul_ne_zero (NeZero.ne p) (NeZero.ne q)⟩

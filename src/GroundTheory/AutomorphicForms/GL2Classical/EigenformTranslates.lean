@@ -23,8 +23,6 @@ namespace GL2Classical
 
 open AdelicGLn AutomorphicForm
 
-set_option linter.unusedSectionVars false
-
 variable {N : ℕ} [NeZero N] {k : ℤ}
 
 
